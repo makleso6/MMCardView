@@ -7,183 +7,197 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		439F6E8B8680B60D1C3CC754AE987411 /* Pods-MMCardView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 951C14D2D6B540133A1EED11EE64A5CC /* Pods-MMCardView_Example-dummy.m */; };
-		5E0A06DC1EFABB11008B9D10 /* DelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0A06DB1EFABB11008B9D10 /* DelegateProxy.swift */; };
-		5E6982CC1EFA77D4008CBD3C /* MMCardCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6982CB1EFA77D4008CBD3C /* MMCardCollectionView.swift */; };
-		5EA1A2551F132716004CB290 /* UIView+Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA1A2531F132716004CB290 /* UIView+Shadow.swift */; };
-		5EA1A2561F132716004CB290 /* UIViewController+Current.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA1A2541F132716004CB290 /* UIViewController+Current.swift */; };
-		5EAE6F1A1F0B36C000FD8DA2 /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAE6F171F0B36C000FD8DA2 /* CardCell.swift */; };
-		5EAE6F1B1F0B36C000FD8DA2 /* CustomCardLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAE6F181F0B36C000FD8DA2 /* CustomCardLayout.swift */; };
-		5EAE6F1C1F0B36C000FD8DA2 /* CustomFlipTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAE6F191F0B36C000FD8DA2 /* CustomFlipTransition.swift */; };
-		5EAE6F281F0B54A900FD8DA2 /* CollectionViewCalculate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAE6F271F0B54A900FD8DA2 /* CollectionViewCalculate.swift */; };
-		651DA3DC412008253BD3900C927E4BD5 /* Pods-MMCardView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 76C8079BE073931498BC538E93D30B5D /* Pods-MMCardView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		999EA99F23081C914EC9B8B5D33E2C63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		B2BD3D62C4E91B14479A4BCB680F712A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		E986E308A1B39DE8288B14F20B9EBBE2 /* MMCardView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 840EDDA8D17DAE92890DCF9991D069FA /* MMCardView-dummy.m */; };
-		EFC85286D26A326D10B31090D1E2E3BF /* MMCardView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA3EC33D52CC1EC5DF852B5F8C1A6152 /* MMCardView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B2925582D1A8EC430A69C827027FFB9 /* MMCardCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A635C61BFF388CB6E57677BC49890CC0 /* MMCardCollectionView.swift */; };
+		3E4E22EFCAF93CBCD0B1D2CB99EDD59B /* UIView+Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD225430CD733924DB282762B949BC /* UIView+Shadow.swift */; };
+		458632CEA429D4771CE78E9E7503741F /* CustomFlipTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6587398A2766D5CA8676467D188A11AA /* CustomFlipTransition.swift */; };
+		5E8F11D2216F289DBB4EC3D0E80EA854 /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803322249A3B8A54C9BEDBEAF7D44ADD /* CardCell.swift */; };
+		5FB9D32567AAAE3156903148ED907D9C /* Pods-MMCardView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA7B77A48AFF95C560A8BD437E1EB5A /* Pods-MMCardView_Example-dummy.m */; };
+		89C96C28B94FDB2F0C7A0F90C7306ED0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		8B89297095F48CD077600C33E3DC5D29 /* DelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F88E49923AFBE42A83862C98594551 /* DelegateProxy.swift */; };
+		91067ADDDD290CBDCD4A0518773C0822 /* MMCardView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 64623D9D61509738C7AA79A84899D722 /* MMCardView-dummy.m */; };
+		A9CD3D16290FED36BF12DD952689D102 /* MMCardView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5495EA3F030550DD879D56F2CCD1DE97 /* MMCardView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B876DBC3A54DA091AD49016797F72390 /* Pods-MMCardView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DFA6C360B27ECBAEC4AEE7BBD6C9451A /* Pods-MMCardView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0F608361AEBB3964DA7AC73648BFDDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		F19D32FF7E99439236C6D137583627F3 /* CollectionViewCalculate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A1FAF87F23FED924C4CF9CF5B770B7 /* CollectionViewCalculate.swift */; };
+		FD0F51CD3427C57B5709086E79472FA9 /* UIviewController+Current.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4164BCE38F2B6AFAA40D6A46CA7F1D36 /* UIviewController+Current.swift */; };
+		FF5EBFAABA462A28C116329626E0B12D /* CustomCardLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCC62C92CBD6E238D8DC39899936FFC /* CustomCardLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		CD09595FB537D3C12AC978E05AFACE4C /* PBXContainerItemProxy */ = {
+		BA9D59F07C0B977395A86D11E1249E8C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FAA657E62E072824149233C78EE0377B;
+			remoteGlobalIDString = C6CA7EC7C2AE024B17EB95E78E5D0FD7;
 			remoteInfo = MMCardView;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		034F87E8439DA2EC8EDF00F7684A4205 /* Pods-MMCardView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MMCardView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		1C90CBF4E730807D01B43CB99DE89507 /* Pods_MMCardView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MMCardView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B05AF2B06C7D84094302976CC5B4511 /* Pods-MMCardView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MMCardView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		5A7CDCBA443074BCF168802A15976D43 /* MMCardView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMCardView-prefix.pch"; sourceTree = "<group>"; };
-		5E0A06DB1EFABB11008B9D10 /* DelegateProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DelegateProxy.swift; sourceTree = "<group>"; };
-		5E6982CB1EFA77D4008CBD3C /* MMCardCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMCardCollectionView.swift; sourceTree = "<group>"; wrapsLines = 0; };
-		5EA1A2531F132716004CB290 /* UIView+Shadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Shadow.swift"; sourceTree = "<group>"; };
-		5EA1A2541F132716004CB290 /* UIViewController+Current.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Current.swift"; sourceTree = "<group>"; };
-		5EAE6F171F0B36C000FD8DA2 /* CardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
-		5EAE6F181F0B36C000FD8DA2 /* CustomCardLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCardLayout.swift; sourceTree = "<group>"; };
-		5EAE6F191F0B36C000FD8DA2 /* CustomFlipTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomFlipTransition.swift; sourceTree = "<group>"; };
-		5EAE6F271F0B54A900FD8DA2 /* CollectionViewCalculate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCalculate.swift; sourceTree = "<group>"; };
-		64C8261BDAA5EACB4DF2248EED7DCA72 /* Pods-MMCardView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MMCardView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		76C8079BE073931498BC538E93D30B5D /* Pods-MMCardView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MMCardView_Example-umbrella.h"; sourceTree = "<group>"; };
-		7BB1874B116D7C577F380D11746C06B4 /* Pods-MMCardView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MMCardView_Example.modulemap"; sourceTree = "<group>"; };
-		840EDDA8D17DAE92890DCF9991D069FA /* MMCardView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MMCardView-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		951C14D2D6B540133A1EED11EE64A5CC /* Pods-MMCardView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MMCardView_Example-dummy.m"; sourceTree = "<group>"; };
-		9A4CA587DC1E26BA15D7F8FA6776AE63 /* MMCardView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MMCardView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A794CD8C41889A34488FFF84DC3AB4ED /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B1C0DBB2440AC644B9EBCEDE0E41928D /* MMCardView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MMCardView.xcconfig; sourceTree = "<group>"; };
-		B79A2BF957A794BAAD4BA21A5EB674D8 /* Pods-MMCardView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MMCardView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C38B7912546867D351212E5BBF51F41B /* Pods-MMCardView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MMCardView_Example-resources.sh"; sourceTree = "<group>"; };
-		CA3EC33D52CC1EC5DF852B5F8C1A6152 /* MMCardView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMCardView-umbrella.h"; sourceTree = "<group>"; };
-		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		E28293BEDC20209CC8E518730E95BC66 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E357B7CFEB3030CD74CEB244D91EDF84 /* MMCardView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MMCardView.modulemap; sourceTree = "<group>"; };
-		E52878F8B419E6E217B6945A8EB213AA /* Pods-MMCardView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MMCardView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1B9AB7E800C7FC43065876A7B48D73DE /* MMCardView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMCardView-prefix.pch"; sourceTree = "<group>"; };
+		1C08BA7637EA4DDD89BA875DE68F23F6 /* Pods-MMCardView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MMCardView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1C90CBF4E730807D01B43CB99DE89507 /* Pods_MMCardView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MMCardView_Example.framework; path = "Pods-MMCardView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D7D0749664BA9BE796A5CF8C7449E0D /* MMCardView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MMCardView.modulemap; sourceTree = "<group>"; };
+		26981E72A3B0C1AD555B3AEA7908ED54 /* Pods-MMCardView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MMCardView_Example.modulemap"; sourceTree = "<group>"; };
+		28430E656EF6D9F3A85FCFA9F8EF4850 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38A1FAF87F23FED924C4CF9CF5B770B7 /* CollectionViewCalculate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollectionViewCalculate.swift; path = MMCardView/Classes/CollectionViewCalculate.swift; sourceTree = "<group>"; };
+		4164BCE38F2B6AFAA40D6A46CA7F1D36 /* UIviewController+Current.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIviewController+Current.swift"; sourceTree = "<group>"; };
+		5495EA3F030550DD879D56F2CCD1DE97 /* MMCardView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMCardView-umbrella.h"; sourceTree = "<group>"; };
+		64623D9D61509738C7AA79A84899D722 /* MMCardView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MMCardView-dummy.m"; sourceTree = "<group>"; };
+		6587398A2766D5CA8676467D188A11AA /* CustomFlipTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CustomFlipTransition.swift; sourceTree = "<group>"; };
+		803322249A3B8A54C9BEDBEAF7D44ADD /* CardCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
+		81E02407CD3A1C0F5BFBC1FE2F5A6E25 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83B55AFF479AFD2A6C6E4C7CED5641E9 /* Pods-MMCardView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MMCardView_Example-resources.sh"; sourceTree = "<group>"; };
+		852F301FA9ED7B92B7BFF24ECE7E231B /* MMCardView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MMCardView.xcconfig; sourceTree = "<group>"; };
+		86C45DE5CD62173DA0BA47AB96B14D37 /* Pods-MMCardView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MMCardView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A4CA587DC1E26BA15D7F8FA6776AE63 /* MMCardView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MMCardView.framework; path = MMCardView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2F88E49923AFBE42A83862C98594551 /* DelegateProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DelegateProxy.swift; path = MMCardView/Classes/DelegateProxy.swift; sourceTree = "<group>"; };
+		A635C61BFF388CB6E57677BC49890CC0 /* MMCardCollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMCardCollectionView.swift; path = MMCardView/Classes/MMCardCollectionView.swift; sourceTree = "<group>"; };
+		C0515B575D1721A80F4E04EE988E6692 /* Pods-MMCardView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MMCardView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C8EFC43438D19AD9F7DDEE994DC77B13 /* Pods-MMCardView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MMCardView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D247A5DB57A273A4520C5031DA5F183A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DE17B4C0B84DC114829111B208B7B443 /* MMCardView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = MMCardView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DECD225430CD733924DB282762B949BC /* UIView+Shadow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+Shadow.swift"; sourceTree = "<group>"; };
+		DFA6C360B27ECBAEC4AEE7BBD6C9451A /* Pods-MMCardView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MMCardView_Example-umbrella.h"; sourceTree = "<group>"; };
+		ECCA394BEA90493B2A1359B3A9E5BA8E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		EDA7B77A48AFF95C560A8BD437E1EB5A /* Pods-MMCardView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MMCardView_Example-dummy.m"; sourceTree = "<group>"; };
+		EFCC62C92CBD6E238D8DC39899936FFC /* CustomCardLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CustomCardLayout.swift; sourceTree = "<group>"; };
+		FECE371860B60EF66266DF7C58C5B448 /* Pods-MMCardView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MMCardView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3779274EE9EB47B65C850761FB3E50D1 /* Frameworks */ = {
+		75465CF5354C70FBC108218574722FFC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				999EA99F23081C914EC9B8B5D33E2C63 /* Foundation.framework in Frameworks */,
+				89C96C28B94FDB2F0C7A0F90C7306ED0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9D189719BD62ABF6FF14BAAA7C746201 /* Frameworks */ = {
+		F7DC5E4C61C6E0082FB6CD6705F74F16 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2BD3D62C4E91B14479A4BCB680F712A /* Foundation.framework in Frameworks */,
+				E0F608361AEBB3964DA7AC73648BFDDB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+		0BB9114E68E314D7D7756CC597E40325 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+				AF42482D79FE849F70FE2AE9A847BC05 /* MMCardView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		14173CEE6A0939F9D192392F7844B078 /* Pods-MMCardView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				28430E656EF6D9F3A85FCFA9F8EF4850 /* Info.plist */,
+				26981E72A3B0C1AD555B3AEA7908ED54 /* Pods-MMCardView_Example.modulemap */,
+				FECE371860B60EF66266DF7C58C5B448 /* Pods-MMCardView_Example-acknowledgements.markdown */,
+				C8EFC43438D19AD9F7DDEE994DC77B13 /* Pods-MMCardView_Example-acknowledgements.plist */,
+				EDA7B77A48AFF95C560A8BD437E1EB5A /* Pods-MMCardView_Example-dummy.m */,
+				86C45DE5CD62173DA0BA47AB96B14D37 /* Pods-MMCardView_Example-frameworks.sh */,
+				83B55AFF479AFD2A6C6E4C7CED5641E9 /* Pods-MMCardView_Example-resources.sh */,
+				DFA6C360B27ECBAEC4AEE7BBD6C9451A /* Pods-MMCardView_Example-umbrella.h */,
+				C0515B575D1721A80F4E04EE988E6692 /* Pods-MMCardView_Example.debug.xcconfig */,
+				1C08BA7637EA4DDD89BA875DE68F23F6 /* Pods-MMCardView_Example.release.xcconfig */,
+			);
+			name = "Pods-MMCardView_Example";
+			path = "Target Support Files/Pods-MMCardView_Example";
+			sourceTree = "<group>";
+		};
+		1B9FCB649D0F0A803DD370FC795E26E5 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				ECCA394BEA90493B2A1359B3A9E5BA8E /* LICENSE */,
+				DE17B4C0B84DC114829111B208B7B443 /* MMCardView.podspec */,
+				D247A5DB57A273A4520C5031DA5F183A /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		3C7D44EDACB4A13334E1742EE4D487CE /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DECD225430CD733924DB282762B949BC /* UIView+Shadow.swift */,
+				4164BCE38F2B6AFAA40D6A46CA7F1D36 /* UIviewController+Current.swift */,
+			);
+			name = Extension;
+			path = MMCardView/Classes/Extension;
+			sourceTree = "<group>";
+		};
+		44D5347904CF754D6785B84253F2574A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		451ECABCA19E367A2D42C5491F7E86DE /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				5EA1A24C1F1326E8004CB290 /* Extension */,
-				5EAE6F161F0B36C000FD8DA2 /* CardLayout */,
-				5E6982CB1EFA77D4008CBD3C /* MMCardCollectionView.swift */,
-				5E0A06DB1EFABB11008B9D10 /* DelegateProxy.swift */,
-				5EAE6F271F0B54A900FD8DA2 /* CollectionViewCalculate.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		5EA1A24C1F1326E8004CB290 /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-				5EA1A2531F132716004CB290 /* UIView+Shadow.swift */,
-				5EA1A2541F132716004CB290 /* UIViewController+Current.swift */,
-			);
-			path = Extension;
-			sourceTree = "<group>";
-		};
-		5EAE6F161F0B36C000FD8DA2 /* CardLayout */ = {
-			isa = PBXGroup;
-			children = (
-				5EAE6F171F0B36C000FD8DA2 /* CardCell.swift */,
-				5EAE6F181F0B36C000FD8DA2 /* CustomCardLayout.swift */,
-				5EAE6F191F0B36C000FD8DA2 /* CustomFlipTransition.swift */,
-			);
-			path = CardLayout;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				9288A43CC40172CFEF781E777EFB7F1A /* Development Pods */,
+				0BB9114E68E314D7D7756CC597E40325 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				CDF27CCEFF9E197C220390D4D6FF20A7 /* Products */,
 				D573208903CD84D61D88E503220B55D8 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		9288A43CC40172CFEF781E777EFB7F1A /* Development Pods */ = {
+		8BC56E20ECD0673D40C07ACA735DA191 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9B747CF36CD5CF8BAC77D0EBB744A9F2 /* MMCardView */,
+				81E02407CD3A1C0F5BFBC1FE2F5A6E25 /* Info.plist */,
+				1D7D0749664BA9BE796A5CF8C7449E0D /* MMCardView.modulemap */,
+				852F301FA9ED7B92B7BFF24ECE7E231B /* MMCardView.xcconfig */,
+				64623D9D61509738C7AA79A84899D722 /* MMCardView-dummy.m */,
+				1B9AB7E800C7FC43065876A7B48D73DE /* MMCardView-prefix.pch */,
+				5495EA3F030550DD879D56F2CCD1DE97 /* MMCardView-umbrella.h */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MMCardView";
 			sourceTree = "<group>";
 		};
-		9B747CF36CD5CF8BAC77D0EBB744A9F2 /* MMCardView */ = {
+		A91BC6EE2058BDC49E7DE95A40323216 /* CardLayout */ = {
 			isa = PBXGroup;
 			children = (
-				C54B97061385DCD9A898CF5380CBF359 /* MMCardView */,
-				F2127956F30F96878BB6DD12F72D03B9 /* Support Files */,
+				803322249A3B8A54C9BEDBEAF7D44ADD /* CardCell.swift */,
+				EFCC62C92CBD6E238D8DC39899936FFC /* CustomCardLayout.swift */,
+				6587398A2766D5CA8676467D188A11AA /* CustomFlipTransition.swift */,
+			);
+			name = CardLayout;
+			path = MMCardView/Classes/CardLayout;
+			sourceTree = "<group>";
+		};
+		AF42482D79FE849F70FE2AE9A847BC05 /* MMCardView */ = {
+			isa = PBXGroup;
+			children = (
+				38A1FAF87F23FED924C4CF9CF5B770B7 /* CollectionViewCalculate.swift */,
+				A2F88E49923AFBE42A83862C98594551 /* DelegateProxy.swift */,
+				A635C61BFF388CB6E57677BC49890CC0 /* MMCardCollectionView.swift */,
+				A91BC6EE2058BDC49E7DE95A40323216 /* CardLayout */,
+				3C7D44EDACB4A13334E1742EE4D487CE /* Extension */,
+				1B9FCB649D0F0A803DD370FC795E26E5 /* Pod */,
+				8BC56E20ECD0673D40C07ACA735DA191 /* Support Files */,
 			);
 			name = MMCardView;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		AF7944D7646E2E34AE4A810D713B34F3 /* Pods-MMCardView_Example */ = {
-			isa = PBXGroup;
-			children = (
-				A794CD8C41889A34488FFF84DC3AB4ED /* Info.plist */,
-				7BB1874B116D7C577F380D11746C06B4 /* Pods-MMCardView_Example.modulemap */,
-				E52878F8B419E6E217B6945A8EB213AA /* Pods-MMCardView_Example-acknowledgements.markdown */,
-				64C8261BDAA5EACB4DF2248EED7DCA72 /* Pods-MMCardView_Example-acknowledgements.plist */,
-				951C14D2D6B540133A1EED11EE64A5CC /* Pods-MMCardView_Example-dummy.m */,
-				034F87E8439DA2EC8EDF00F7684A4205 /* Pods-MMCardView_Example-frameworks.sh */,
-				C38B7912546867D351212E5BBF51F41B /* Pods-MMCardView_Example-resources.sh */,
-				76C8079BE073931498BC538E93D30B5D /* Pods-MMCardView_Example-umbrella.h */,
-				B79A2BF957A794BAAD4BA21A5EB674D8 /* Pods-MMCardView_Example.debug.xcconfig */,
-				3B05AF2B06C7D84094302976CC5B4511 /* Pods-MMCardView_Example.release.xcconfig */,
-			);
-			name = "Pods-MMCardView_Example";
-			path = "Target Support Files/Pods-MMCardView_Example";
-			sourceTree = "<group>";
-		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+				44D5347904CF754D6785B84253F2574A /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C54B97061385DCD9A898CF5380CBF359 /* MMCardView */ = {
-			isa = PBXGroup;
-			children = (
-				451ECABCA19E367A2D42C5491F7E86DE /* Classes */,
-			);
-			path = MMCardView;
 			sourceTree = "<group>";
 		};
 		CDF27CCEFF9E197C220390D4D6FF20A7 /* Products */ = {
@@ -198,72 +212,60 @@
 		D573208903CD84D61D88E503220B55D8 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				AF7944D7646E2E34AE4A810D713B34F3 /* Pods-MMCardView_Example */,
+				14173CEE6A0939F9D192392F7844B078 /* Pods-MMCardView_Example */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		F2127956F30F96878BB6DD12F72D03B9 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E28293BEDC20209CC8E518730E95BC66 /* Info.plist */,
-				E357B7CFEB3030CD74CEB244D91EDF84 /* MMCardView.modulemap */,
-				B1C0DBB2440AC644B9EBCEDE0E41928D /* MMCardView.xcconfig */,
-				840EDDA8D17DAE92890DCF9991D069FA /* MMCardView-dummy.m */,
-				5A7CDCBA443074BCF168802A15976D43 /* MMCardView-prefix.pch */,
-				CA3EC33D52CC1EC5DF852B5F8C1A6152 /* MMCardView-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MMCardView";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		001E42EB19BF2B83C8D24690D0845E17 /* Headers */ = {
+		312A6E7D3CF7AC803A9C3AE7F8720652 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				651DA3DC412008253BD3900C927E4BD5 /* Pods-MMCardView_Example-umbrella.h in Headers */,
+				A9CD3D16290FED36BF12DD952689D102 /* MMCardView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BD15376D0E5EA059B404A267161D54D3 /* Headers */ = {
+		4A2309F178937476DAEBD5BDBCC4B147 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFC85286D26A326D10B31090D1E2E3BF /* MMCardView-umbrella.h in Headers */,
+				B876DBC3A54DA091AD49016797F72390 /* Pods-MMCardView_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		4D27CBF1C914635925788A76316B6188 /* Pods-MMCardView_Example */ = {
+		222583A8DBDD320888D6CA3F61842765 /* Pods-MMCardView_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B86AB29160E984BBD5B2D3567E824570 /* Build configuration list for PBXNativeTarget "Pods-MMCardView_Example" */;
+			buildConfigurationList = 9F4F5B1D11C448AFE546D10A36895197 /* Build configuration list for PBXNativeTarget "Pods-MMCardView_Example" */;
 			buildPhases = (
-				99F0A353E3379ED641F9A47E66F65EAF /* Sources */,
-				3779274EE9EB47B65C850761FB3E50D1 /* Frameworks */,
-				001E42EB19BF2B83C8D24690D0845E17 /* Headers */,
+				4A2309F178937476DAEBD5BDBCC4B147 /* Headers */,
+				E62492D086B2B79A1365D14D8CB4FF2D /* Sources */,
+				F7DC5E4C61C6E0082FB6CD6705F74F16 /* Frameworks */,
+				FD32DAEA134EAB41E1A7B3399F4EA3E7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BABEF1979C00FF217138F14D527F522E /* PBXTargetDependency */,
+				71E1B2E13CBAB75251DABC612E8D648B /* PBXTargetDependency */,
 			);
 			name = "Pods-MMCardView_Example";
 			productName = "Pods-MMCardView_Example";
 			productReference = 1C90CBF4E730807D01B43CB99DE89507 /* Pods_MMCardView_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		FAA657E62E072824149233C78EE0377B /* MMCardView */ = {
+		C6CA7EC7C2AE024B17EB95E78E5D0FD7 /* MMCardView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 798210D32804F2BFEAF06F114BE8206C /* Build configuration list for PBXNativeTarget "MMCardView" */;
+			buildConfigurationList = 9CA7FA9E1FD35C3E9FBF4E652092ED65 /* Build configuration list for PBXNativeTarget "MMCardView" */;
 			buildPhases = (
-				8DB8E0B695A0AA0D8244A305BCDC8713 /* Sources */,
-				9D189719BD62ABF6FF14BAAA7C746201 /* Frameworks */,
-				BD15376D0E5EA059B404A267161D54D3 /* Headers */,
+				312A6E7D3CF7AC803A9C3AE7F8720652 /* Headers */,
+				08088845936733868A950AC1CBB5F085 /* Sources */,
+				75465CF5354C70FBC108218574722FFC /* Frameworks */,
+				64426E8D80C4602254049F0DF013EE34 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -280,8 +282,8 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0700;
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -295,264 +297,319 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FAA657E62E072824149233C78EE0377B /* MMCardView */,
-				4D27CBF1C914635925788A76316B6188 /* Pods-MMCardView_Example */,
+				C6CA7EC7C2AE024B17EB95E78E5D0FD7 /* MMCardView */,
+				222583A8DBDD320888D6CA3F61842765 /* Pods-MMCardView_Example */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXSourcesBuildPhase section */
-		8DB8E0B695A0AA0D8244A305BCDC8713 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
+/* Begin PBXResourcesBuildPhase section */
+		64426E8D80C4602254049F0DF013EE34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E6982CC1EFA77D4008CBD3C /* MMCardCollectionView.swift in Sources */,
-				5EAE6F1B1F0B36C000FD8DA2 /* CustomCardLayout.swift in Sources */,
-				5EA1A2551F132716004CB290 /* UIView+Shadow.swift in Sources */,
-				5E0A06DC1EFABB11008B9D10 /* DelegateProxy.swift in Sources */,
-				E986E308A1B39DE8288B14F20B9EBBE2 /* MMCardView-dummy.m in Sources */,
-				5EA1A2561F132716004CB290 /* UIViewController+Current.swift in Sources */,
-				5EAE6F281F0B54A900FD8DA2 /* CollectionViewCalculate.swift in Sources */,
-				5EAE6F1C1F0B36C000FD8DA2 /* CustomFlipTransition.swift in Sources */,
-				5EAE6F1A1F0B36C000FD8DA2 /* CardCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		99F0A353E3379ED641F9A47E66F65EAF /* Sources */ = {
+		FD32DAEA134EAB41E1A7B3399F4EA3E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08088845936733868A950AC1CBB5F085 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				439F6E8B8680B60D1C3CC754AE987411 /* Pods-MMCardView_Example-dummy.m in Sources */,
+				5E8F11D2216F289DBB4EC3D0E80EA854 /* CardCell.swift in Sources */,
+				F19D32FF7E99439236C6D137583627F3 /* CollectionViewCalculate.swift in Sources */,
+				FF5EBFAABA462A28C116329626E0B12D /* CustomCardLayout.swift in Sources */,
+				458632CEA429D4771CE78E9E7503741F /* CustomFlipTransition.swift in Sources */,
+				8B89297095F48CD077600C33E3DC5D29 /* DelegateProxy.swift in Sources */,
+				3B2925582D1A8EC430A69C827027FFB9 /* MMCardCollectionView.swift in Sources */,
+				91067ADDDD290CBDCD4A0518773C0822 /* MMCardView-dummy.m in Sources */,
+				3E4E22EFCAF93CBCD0B1D2CB99EDD59B /* UIView+Shadow.swift in Sources */,
+				FD0F51CD3427C57B5709086E79472FA9 /* UIviewController+Current.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E62492D086B2B79A1365D14D8CB4FF2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FB9D32567AAAE3156903148ED907D9C /* Pods-MMCardView_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		BABEF1979C00FF217138F14D527F522E /* PBXTargetDependency */ = {
+		71E1B2E13CBAB75251DABC612E8D648B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MMCardView;
-			target = FAA657E62E072824149233C78EE0377B /* MMCardView */;
-			targetProxy = CD09595FB537D3C12AC978E05AFACE4C /* PBXContainerItemProxy */;
+			target = C6CA7EC7C2AE024B17EB95E78E5D0FD7 /* MMCardView */;
+			targetProxy = BA9D59F07C0B977395A86D11E1249E8C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+		094D321E77D09B3D3B572014D5E9F1D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 852F301FA9ED7B92B7BFF24ECE7E231B /* MMCardView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MMCardView/MMCardView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MMCardView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MMCardView/MMCardView.modulemap";
+				PRODUCT_MODULE_NAME = MMCardView;
+				PRODUCT_NAME = MMCardView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2B5C99E7120FE7A0B645DEAAD2E41C6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 852F301FA9ED7B92B7BFF24ECE7E231B /* MMCardView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MMCardView/MMCardView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MMCardView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MMCardView/MMCardView.modulemap";
+				PRODUCT_MODULE_NAME = MMCardView;
+				PRODUCT_NAME = MMCardView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		33A76D0B9BF73F5420CC4E5E484363AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0515B575D1721A80F4E04EE988E6692 /* Pods-MMCardView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MMCardView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MMCardView_Example/Pods-MMCardView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5DE19CECB206ACCCACF04D62F93FFDA6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		858D01EEFE984249A9581D18DBEA53F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		1D214F1634087EDFA1936F6F5FA68686 /* Debug */ = {
+		D3E3DA1055A825C4BD78897424E5BD8E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B79A2BF957A794BAAD4BA21A5EB674D8 /* Pods-MMCardView_Example.debug.xcconfig */;
+			baseConfigurationReference = 1C08BA7637EA4DDD89BA875DE68F23F6 /* Pods-MMCardView_Example.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-MMCardView_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MMCardView_Example/Pods-MMCardView_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_MMCardView_Example;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		4C6A41F8F557D2C34C18200E10043762 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B05AF2B06C7D84094302976CC5B4511 /* Pods-MMCardView_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-MMCardView_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MMCardView_Example/Pods-MMCardView_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_MMCardView_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		DD3191E550CD0EC5662F21CA69C2025F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B1C0DBB2440AC644B9EBCEDE0E41928D /* MMCardView.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MMCardView/MMCardView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MMCardView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MMCardView/MMCardView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = MMCardView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E54AFCE8AD905B5DC1FB7EDD5DC8E391 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B1C0DBB2440AC644B9EBCEDE0E41928D /* MMCardView.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MMCardView/MMCardView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MMCardView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MMCardView/MMCardView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = MMCardView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -564,26 +621,26 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
-				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+				858D01EEFE984249A9581D18DBEA53F1 /* Debug */,
+				5DE19CECB206ACCCACF04D62F93FFDA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		798210D32804F2BFEAF06F114BE8206C /* Build configuration list for PBXNativeTarget "MMCardView" */ = {
+		9CA7FA9E1FD35C3E9FBF4E652092ED65 /* Build configuration list for PBXNativeTarget "MMCardView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DD3191E550CD0EC5662F21CA69C2025F /* Debug */,
-				E54AFCE8AD905B5DC1FB7EDD5DC8E391 /* Release */,
+				2B5C99E7120FE7A0B645DEAAD2E41C6E /* Debug */,
+				094D321E77D09B3D3B572014D5E9F1D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B86AB29160E984BBD5B2D3567E824570 /* Build configuration list for PBXNativeTarget "Pods-MMCardView_Example" */ = {
+		9F4F5B1D11C448AFE546D10A36895197 /* Build configuration list for PBXNativeTarget "Pods-MMCardView_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1D214F1634087EDFA1936F6F5FA68686 /* Debug */,
-				4C6A41F8F557D2C34C18200E10043762 /* Release */,
+				33A76D0B9BF73F5420CC4E5E484363AA /* Debug */,
+				D3E3DA1055A825C4BD78897424E5BD8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
